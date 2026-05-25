@@ -8,11 +8,11 @@ dependencies:
     sdk: flutter
   painter:
     path: ../
-  flutter_colorpicker: ^0.4.0
+  flutter_colorpicker: ^1.1.0
 
 flutter:
   uses-material-design: true
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=2.0.0"
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"
