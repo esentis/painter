@@ -7,7 +7,15 @@
     {
       "name": "painter",
       "request": "launch",
-      "type": "dart"
+      "type": "dart",
+      "args": [
+        "fvm",
+        "flutter",
+        "run",
+        "-t",
+        "lib/main.dart",
+        "--dart-define-from-file=.env"
+      ]
     },
     {
       "name": "painter (profile mode)",
