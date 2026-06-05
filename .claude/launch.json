@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "multiplayer-poc",
+      "runtimeExecutable": "fvm",
+      "runtimeArgs": ["flutter", "run", "-d", "web-server", "--web-port=8080", "--web-hostname=localhost", "-t", "lib/multiplayer_poc.dart"],
+      "port": 8080,
+      "cwd": "example"
+    }
+  ]
+}
